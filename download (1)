@@ -1,0 +1,17 @@
+# Force LF line endings for code files
+*.py        text eol=lf
+*.md        text eol=lf
+*.txt       text eol=lf
+*.ipynb     text eol=lf
+
+# Binary files
+*.npy       binary
+*.pth       binary
+*.pt        binary
+*.pkl       binary
+*.jpg       binary
+*.jpeg      binary
+*.png       binary
+
+# Notebooks
+*.ipynb linguist-language=Python
